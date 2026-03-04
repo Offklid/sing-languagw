@@ -137,7 +137,7 @@ sing-languagw/
 
 ## 👤 Автор
 
-Ваше имя - [GitHub](https://github.com/ваш-username)
+Ваше имя - [GitHub](https://github.com/Offklid)
 
 ## 🙏 Благодарности
 
