@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Распознование цифр</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        #video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Распознование цифр на языке жестов</h1>
+    <div id="video-container">
+        <img id="video" src="{{ url_for('video_feed') }}" width="800" />
+    </div>
+    <div>
+        <button onclick="location.href='/start'">Начать</button>
+        <button onclick="location.href='/stop'">Закончить</button>
+    </div>
+</body>
+</html>
